@@ -18,7 +18,7 @@ public class Main
             price=sc.nextInt();
             System.out.println("Enter the no of tickets:");
             noOfTickets=sc.nextInt();
-        
+            sc.close();
             obj.setTicketid(ticketid);
             obj.setPrice(price);
         
